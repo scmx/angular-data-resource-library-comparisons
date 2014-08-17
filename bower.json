@@ -1,0 +1,28 @@
+{
+  "name": "angular-data-resource-library-comparisons",
+  "version": "0.0.0",
+  "authors": [
+    "Albert Arvidsson <albert.arvidsson@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.22",
+    "angular-resource": "~1.2.22",
+    "restangular": "~1.4.0",
+    "ngActiveResource": "~0.7.7",
+    "angular-data": "~0.10.5",
+    "angularjs-rails-resource": "~1.2.0",
+    "angular-ui-router": "~0.2.10",
+    "ember": "~1.6",
+    "ember-data": "~1.0.0-beta.8",
+    "angular-cache": "~3.1.0"
+  }
+}

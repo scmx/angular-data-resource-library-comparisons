@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/handlebars/handlebars.js"></script>
+    <script src="/bower_components/ember/ember.js"></script>
+    <script src="/bower_components/ember-data/ember-data.js"></script>
+    <script src="/ember/ember-data/index.js"></script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="/">&larr; Tillbaka</a></li>
+    </ul>
+    <script type="text/x-handlebars" data-template-name="posts">
+      <section>
+        {{#each}}
+        <article>
+          <h2>{{title}}</h2>
+          <p>{{body}}</p>
+        </article>
+        {{/each}}
+      </section>
+    </script>
+  </body>
+</html>
